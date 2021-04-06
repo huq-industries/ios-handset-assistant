@@ -1,0 +1,11 @@
+framework module HandsetAssistant {
+  umbrella header "HandsetAssistant.h"
+
+  export *
+  module * { export * }
+}
+
+module HandsetAssistant.Swift {
+    header "HandsetAssistant-Swift.h"
+    requires objc
+}
